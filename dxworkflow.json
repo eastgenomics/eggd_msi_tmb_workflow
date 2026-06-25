@@ -1,0 +1,36 @@
+{
+  "name": "eggd_msi_tmb_workflow_v1.0.0",
+  "title": "eggd_msi_tmb_workflow_v1.0.0",
+  "stages": [
+    {
+      "id": "stage-eggd_pyTMB",
+      "executable": "applet-J8xzB4846fyGf3yy2f9q2kpk"
+    },
+    {
+      "id": "stage-eggd_msisensor_pro",
+      "executable": "app-J8876j84gKGpF60vG7vxf419"
+    },
+    {
+      "id": "stage-eggd_msisensor2",
+      "executable": "app-J8Bpj7j4Gyx6GyQz94P6Jyg2"
+    },
+    {
+      "id": "stage-eggd_msi_tmb_combiner",
+      "executable": "applet-J8xz8x046fyJYXk4Qz372Gj3",
+      "input": {
+        "tmb_file": {
+          "$dnanexus_link": {
+            "stage": "stage-eggd_pyTMB",
+            "outputField": "tmb_report"
+          }
+        }, 
+        "msi_file": {
+          "$dnanexus_link": {
+            "stage": "stage-eggd_msisensor_pro",
+            "outputField": "msi_score"
+          }
+        }
+      }
+    }
+  ]
+}
