@@ -1,0 +1,39 @@
+{
+  "name": "eggd_msi_tmb_workflow_v1.0.0",
+  "title": "eggd_msi_tmb_workflow_v1.0.0",
+  "whatsNew": {
+    "v1.0.0": "Initial working version"
+  },
+  "stages": [
+    {
+      "id": "stage-eggd_pyTMB",
+      "executable": "app-J8z97X04Vvb4kYJf0yKQb8YV"
+    },
+    {
+      "id": "stage-eggd_msisensor_pro",
+      "executable": "app-J8876j84gKGpF60vG7vxf419"
+    },
+    {
+      "id": "stage-eggd_msisensor2",
+      "executable": "app-J8Bpj7j4Gyx6GyQz94P6Jyg2"
+    },
+    {
+      "id": "stage-eggd_msi_tmb_combiner",
+      "executable": "app-J8z9V6Q40FBj2gKbPFYK8qjx",
+      "input": {
+        "tmb_file": {
+          "$dnanexus_link": {
+            "stage": "stage-eggd_pyTMB",
+            "outputField": "tmb_report"
+          }
+        }, 
+        "msi_file": {
+          "$dnanexus_link": {
+            "stage": "stage-eggd_msisensor_pro",
+            "outputField": "msi_score"
+          }
+        }
+      }
+    }
+  ]
+}
