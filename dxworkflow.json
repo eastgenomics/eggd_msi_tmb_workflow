@@ -19,7 +19,7 @@
     },
     {
       "id": "stage-eggd_msi_tmb_combiner",
-      "executable": "applet-J8xz8x046fyJYXk4Qz372Gj3",
+      "executable": "app-J8z9V6Q40FBj2gKbPFYK8qjx",
       "input": {
         "tmb_file": {
           "$dnanexus_link": {
