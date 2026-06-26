@@ -1,6 +1,9 @@
 {
   "name": "eggd_msi_tmb_workflow_v1.0.0",
   "title": "eggd_msi_tmb_workflow_v1.0.0",
+  "whatsNew": {
+    "v1.0.0": "Initial working version"
+  },
   "stages": [
     {
       "id": "stage-eggd_pyTMB",
