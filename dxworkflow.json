@@ -29,8 +29,8 @@
         }, 
         "msi_file": {
           "$dnanexus_link": {
-            "stage": "stage-eggd_msisensor_pro",
-            "outputField": "msi_score"
+            "stage": "stage-eggd_msisensor2",
+            "outputField": "msi_scan"
           }
         }
       }
