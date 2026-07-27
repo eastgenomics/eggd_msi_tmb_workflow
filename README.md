@@ -6,7 +6,7 @@
 ## Stages
  
 | App/Applet Name | Version |
-| ------------------|----------------|---------|
+| ------------------|---------|
 | eggd_pyTMB |  v0.0.1 |
 | eggd_msisensor_pro | v1.0.0 |
 | eggd_msisensor2 | v1.0.0 |
