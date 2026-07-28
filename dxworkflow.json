@@ -10,8 +10,8 @@
       "executable": "app-J8z97X04Vvb4kYJf0yKQb8YV"
     },
     {
-      "id": "stage-eggd_msisensor_pro",
-      "executable": "app-J8876j84gKGpF60vG7vxf419"
+      "id": "stage-eggd_msipro-score",
+      "executable": "app-J9V2Bzj4pq4GX6xjP1XVB9y6"
     },
     {
       "id": "stage-eggd_msisensor2",
@@ -29,8 +29,8 @@
         }, 
         "msi_file": {
           "$dnanexus_link": {
-            "stage": "stage-eggd_msisensor_pro",
-            "outputField": "msi_score"
+            "stage": "stage-eggd_msipro-score",
+            "outputField": "msi_tsv"
           }
         }
       }
