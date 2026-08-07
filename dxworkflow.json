@@ -7,10 +7,10 @@
   "stages": [
     {
       "id": "stage-eggd_pyTMB",
-      "executable": "app-J8z97X04Vvb4kYJf0yKQb8YV"
+      "executable": "app-J9pk7y84jYPfZQx62f16yqBK"
     },
     {
-      "id": "stage-eggd_msipro-score",
+      "id": "stage-eggd_msipro_score",
       "executable": "app-J9V2Bzj4pq4GX6xjP1XVB9y6"
     },
     {
@@ -29,7 +29,7 @@
         }, 
         "msi_file": {
           "$dnanexus_link": {
-            "stage": "stage-eggd_msipro-score",
+            "stage": "stage-eggd_msipro_score",
             "outputField": "msi_tsv"
           }
         }
