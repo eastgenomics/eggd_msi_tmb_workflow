@@ -7,15 +7,15 @@
   "stages": [
     {
       "id": "stage-eggd_pyTMB",
-      "executable": "eggd_pyTMB/1.0.1"
+      "executable": "app-eggd_pyTMB/1.0.1"
     },
     {
       "id": "stage-eggd_msipro_score",
-      "executable": "eggd_msipro-score/1.0.0"
+      "executable": "app-eggd_msipro-score/1.0.0"
     },
     {
       "id": "stage-eggd_msi_tmb_combiner",
-      "executable": "eggd_msi_tmb_combiner/1.0.0",
+      "executable": "app-eggd_msi_tmb_combiner/1.0.0",
       "input": {
         "tmb_file": {
           "$dnanexus_link": {
