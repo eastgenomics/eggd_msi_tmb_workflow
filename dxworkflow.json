@@ -7,19 +7,15 @@
   "stages": [
     {
       "id": "stage-eggd_pyTMB",
-      "executable": "app-J8z97X04Vvb4kYJf0yKQb8YV"
+      "executable": "app-eggd_pyTMB/1.0.1"
     },
     {
-      "id": "stage-eggd_msipro-score",
-      "executable": "app-J9V2Bzj4pq4GX6xjP1XVB9y6"
-    },
-    {
-      "id": "stage-eggd_msisensor2",
-      "executable": "app-J8Bpj7j4Gyx6GyQz94P6Jyg2"
+      "id": "stage-eggd_msipro_score",
+      "executable": "app-eggd_msipro-score/1.0.0"
     },
     {
       "id": "stage-eggd_msi_tmb_combiner",
-      "executable": "app-J8z9V6Q40FBj2gKbPFYK8qjx",
+      "executable": "app-eggd_msi_tmb_combiner/1.0.0",
       "input": {
         "tmb_file": {
           "$dnanexus_link": {
@@ -29,7 +25,7 @@
         }, 
         "msi_file": {
           "$dnanexus_link": {
-            "stage": "stage-eggd_msipro-score",
+            "stage": "stage-eggd_msipro_score",
             "outputField": "msi_tsv"
           }
         }
