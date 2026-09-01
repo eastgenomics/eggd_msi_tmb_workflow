@@ -1,8 +1,9 @@
 {
-  "name": "eggd_msi_tmb_workflow_v1.0.0",
-  "title": "eggd_msi_tmb_workflow_v1.0.0",
+  "name": "eggd_msi_tmb_workflow_v1.1.0",
+  "title": "eggd_msi_tmb_workflow_v1.1.0",
   "whatsNew": {
-    "v1.0.0": "Initial working version"
+    "v1.0.0": "Initial working version",
+    "v1.1.0": "Updated to use v1.1.0 eggd_pyTMB app"
   },
   "stages": [
     {
