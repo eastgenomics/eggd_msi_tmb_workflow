@@ -7,7 +7,7 @@
   "stages": [
     {
       "id": "stage-eggd_pyTMB",
-      "executable": "app-eggd_pyTMB/1.0.1"
+      "executable": "app-eggd_pyTMB/1.1.0"
     },
     {
       "id": "stage-eggd_msipro_score",
