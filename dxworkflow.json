@@ -4,7 +4,7 @@
   "whatsNew": {
     "v1.0.0": "Initial working version",
     "v1.1.0": "Updated to use v1.1.0 eggd_pyTMB app",
-    "1.2.0" : "Updated to use eggd_msipro-score 1.1.0"
+    "v1.2.0" : "Updated to use eggd_msipro-score 1.1.0"
   },
   "stages": [
     {
